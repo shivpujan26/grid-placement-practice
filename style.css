@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    grid-template-rows: 400px;
+    gap: 3rem;
+}
+.container i{
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
